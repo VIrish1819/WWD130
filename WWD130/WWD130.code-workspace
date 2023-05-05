@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../siteplanner.html"
+		},
+		{
+			"path": "../styles"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WWD130"
+	}
+}
