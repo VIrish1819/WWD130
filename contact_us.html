@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrills and Fun | Longlasting memories | Contact Us</title>
+    <link rel="stylesheet" href="style_week3.css">
+    <style>
+        /* Add your CSS styles here */
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: #f2f2f2;
+            border-radius: 4px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        .contact-form button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <!-- Your header content here -->
+        </header>
+
+        <main>
+            <div class="contact-form">
+                <h1>Contact Us</h1>
+
+                <form>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <!-- Your footer content here -->
+        </footer>
+    </div>
+</body>
+</html>
