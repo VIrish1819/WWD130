@@ -1,0 +1,35 @@
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 470px;
+    height: 400px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+.title {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+.Vance{
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
