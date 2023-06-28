@@ -1,0 +1,90 @@
+
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: lightblue;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    .song-list,
+    .play-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .song,
+    .playlist {
+      width: 300px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .song img,
+    .playlist img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .song h3,
+    .playlist h3 {
+      margin: 10px 0;
+    }
+
+    .song p,
+    .playlist p {
+      margin: 5px 0;
+    }
+
+    footer {
+      background-color: lightblue;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+.social{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #fff;
+
+}
